@@ -13,3 +13,6 @@ go run .
 # or
 go run main.go
 # my project
+## Build (Compile)
+go build -o dist/hello .
+./dist/hello
