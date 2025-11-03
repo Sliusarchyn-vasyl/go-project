@@ -1,29 +1,4 @@
-$cat >> .gitignore << 'EOF'
-# macOS
+
 .DS_Store
-**/.DS_Store
-
-# JetBrains (GoLand)
-.idea/
-*.iml
-
-# VS Code
-.vscode/
-
-# Go build artifacts
-bin/
-*.exe
-*.dll
-*.so
-*.dylib
-*.test
-*.out
-coverage*.txt
-
-# Go work (ігноруйте, якщо не комітите go.work)
-go.work
-
-# Logs / env
-*.log
+.idea
 .env
-.env.*
