@@ -1,11 +1,3 @@
 module github.com/Sliusarchyn-vasyl/go-project
 
 go 1.25.1
-
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("Hello, World!")
-}
